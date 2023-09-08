@@ -1,33 +1,30 @@
-# Sassquatch 🧌
-
-Rapid bootstrapper for SaaS: Instantly handle sign-ups, payments, and feedback!
-
-## Introduction
-
-Sassquatch is designed to be the quickest way to get your SaaS application off the ground. Powered by Next.js and integrating the best of tools like Clerk and Stripe, our mission is to enable developers to focus on their unique features and leave the boilerplate to us.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-### Prerequisites
+First, run the development server:
 
-Before you begin, ensure you have the following installed:
-- [Node.js](https://nodejs.org/)
-- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
+```bash
+npm run dev
+```
 
-Additionally, you'll need accounts for:
-- [Clerk](https://clerk.com)
-- [Stripe](https://stripe.com)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Setup and Installation
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-1. **Clone the Repository**
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-  ```bash
-   git clone https://github.com/yourusername/Sassquatch.git
-   cd Sassquatch
-  ```
-2. **Install Dependencies**
+## Learn More
 
-  ```bash
-   yarn install
-  ```
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
