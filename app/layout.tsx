@@ -3,6 +3,7 @@ import './globals.css'
 import { cn } from '@/lib/utils'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Providers from '@/components/Providers'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,10 +29,12 @@ export default function RootLayout({
         <link rel='icon' href='/favicon.ico' />
       </head>
       <body className='min-h-screen pt-12 bg-slate-50 antialiased'>
-        <Navbar />
-        <div className='container max-w-7xl mx-auto h-full pt-12'>
-          {children}
-        </div>
+        <Providers>
+          <Navbar />
+          <div className='container max-w-7xl mx-auto h-full pt-12'>
+            {children}
+          </div>
+        </Providers>
       </body>
     </html>
   )
